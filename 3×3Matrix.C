@@ -11,6 +11,7 @@ void main()
              {
                 scanf("%d\t",&a[i][j]);
               }
+        }
             printf("The Matrix:\n");
             for(i=0;i<2;i++)
               {

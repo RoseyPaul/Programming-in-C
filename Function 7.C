@@ -1,16 +1,14 @@
 #include<stdio.h>
-void swap();
+void SI();
 void main()
 {
-	swap();
+	SI();
 }
-void swap()
+void SI()
 {
-	int a,b,c;
-	printf("Enter two numbers to swap:");
-	scanf("%d%d",&a,&b);
-	c=a;
-	a=b;
-	b=c;
-	printf("After swapping:%d %d",a,b);
+	float P,R,T,result;
+	printf("Enter principal,rate,time:");
+	scanf("%f%f%f",&P,&R,&T);
+	result=(P*R*T)/100;
+	printf("Simple Interest=%f",result);
 }
